@@ -2,13 +2,16 @@ name: "jaffle_shop_mesh_platform"
 version: "2.1.0"
 config-version: 2
 
-profile: "snowflake"
+dbt-cloud:
+  project-id: 370294
+
+profile: "dbt-cloud"
 require-dbt-version: ">=1.6.0"
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
-seed-paths: ["jaffle-data"]
+seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
