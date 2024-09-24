@@ -28,3 +28,5 @@ models:
   jaffle_shop_mesh_platform:
     staging:
       +materialized: view
+    
+#insignificant change to test CI jobs
